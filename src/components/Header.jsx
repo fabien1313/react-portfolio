@@ -1,11 +1,9 @@
 import React from 'react'
 import image from '../images/reactatar.png';
-import background from '../images/background1.jpg';
+import tIcon from '../images/twitter.png';
+import lIcon from '../images/linkedin.png';
+import gIcon from '../images/github.png';
 
-const style = {
-  backgroundImage: `url(${background})`,
-  backgroundSize: 'cover',
-}
 
 const Header = () => {
   return (
@@ -19,6 +17,10 @@ const Header = () => {
           <li className="nav-item"><a className="anchor-item" href="/resume">Resume</a></li>
           <li className="nav-item"><a className="anchor-item" href="/contact">Contact</a></li>
       </nav>
+    <a href="https://twitter.com/CodeFabien" target="_blank"><img id="tIcon" src= { tIcon } alt="twitter icon" /></a>
+    <a href="https://www.linkedin.com/in/fabien-moreno/" target="_blank"><img id="lIcon" src= { lIcon } alt="linkedin icon" /></a>
+    <a href="https://github.com/fabien1313" target="_blank"><img id="gIcon" src= { gIcon } alt="linkedin icon" /></a>
+
     </header>
     
   )
