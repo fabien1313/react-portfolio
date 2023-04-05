@@ -130,7 +130,6 @@ header {
     height: 100vh;
     background-color: #010b7597;
 }
-
 #portfolio-title {
     width:100%;
     font-family: "Raleway", sans-serif;
@@ -140,7 +139,6 @@ header {
     margin-top: 20px;
     text-align: center;
 }
-
 .project-container {
     display: flex;
     flex-direction: row;
@@ -148,24 +146,21 @@ header {
     justify-content: space-evenly;
     width: 100%;
     min-width: 200px;
-    margin-top: 50px;
+    margin-top: 37px;
 }
-
 .project-anchor {
     width: 20%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
-
 .project-photo {
     border-radius: 12px;
     width: 350px;
-    height: 330px;
+    height: 200px;
 }
-
 .project-text {
     font-family: "Raleway", sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 1.5;
     font-weight: 500;
     margin-top: 10px;
@@ -173,5 +168,31 @@ header {
     text-align: justify;
     color: white;
 }
+#btn-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+#demo-btn, #repo-btn {
+    background-color: #010b75f7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+#demo-btn:hover {
+    text-shadow: 0 0 10px white;
+    transform: translate(0, -2px);
+  }
+#repo-btn:hover {
+    text-shadow: 0 0 10px white;
+    transform: translate(0, -2px);
+  }
 
 

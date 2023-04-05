@@ -1,6 +1,7 @@
 import React from 'react'
 import thedailydose from '../images/thedailydose.png'
 import socialDose from '../images/socialdose.png'
+import workDay from '../images/workday.png'
 
 const Portfolio = () => {
   return (
@@ -16,7 +17,11 @@ const Portfolio = () => {
 
         Overall, my CMS-style blog site is a valuable resource for developers looking to share their knowledge and connect with others in the field.
         </p>
-        <a className="project-anchor" href="https://github.com/fabien1313/TheDailyDose" target="_blank"><img className="project-photo"  src={ thedailydose } alt="Tech Blog Project" /></a>
+        <img className="project-photo"  src={ thedailydose } alt="Tech Blog Project" />
+      </div>
+
+      <div className="btn-div">
+      <a href="https://thedailydose.herokuapp.com/" target="_blank"><button id="demo-btn">Live Demo</button></a> <a href="https://github.com/fabien1313/TheDailyDose" target="_blank"><button id="repo-btn">Repository</button></a>
       </div>
 
       <div className="project-container">
@@ -29,7 +34,29 @@ const Portfolio = () => {
 
         Overall, the API I built for this social network web application provides a foundation for a full-stack application that can be used to connect users and facilitate sharing of thoughts and ideas. It showcases my proficiency in using technologies commonly used in social networking platforms, such as Express.js and MongoDB.
         </p>
-        <a className="project-anchor" href=""><img className="project-photo" src={ socialDose } alt="" /></a>
+        <img className="project-photo" src={ socialDose } alt="Social Network API" />
+      </div>
+
+      <div className="btn-div">
+      <a href="https://drive.google.com/file/d/1_F4EDyZYJi2q_Bfcg8IwpA-nV3ETN_YH/view" target="_blank"><button id="demo-btn">Live Demo</button></a> <a href="https://github.com/fabien1313/SocialDose-API" target="_blank"><button id="repo-btn">Repository</button></a>
+      </div>
+
+      <div className="project-container">
+        <p className="project-text">
+        I recently built a simple calendar application that allows users to save events for each hour of the day. This browser-based app features dynamically updated HTML and CSS powered by jQuery.
+
+        To create this application, I utilized my skills in HTML, CSS, JavaScript, and jQuery. The app allows users to view the current date and time and add events for each hour of the day. The events are saved to local storage, so users can return to the page and view their saved events.
+
+        The dynamically updated HTML and CSS provide a sleek and modern interface for the user, making it easy to view and manage events. This app is versatile and can be used for a variety of purposes, such as managing a busy work schedule or keeping track of personal appointments.
+
+        Overall, the calendar application I built showcases my skills in front-end development and provides a valuable tool for managing daily tasks and events.
+        </p>
+
+        <img className="project-photo" src={ workDay} alt="Work Day Schedular" />
+      </div>
+
+      <div className="btn-div">
+      <a href="https://fabien1313.github.io/dayscheduler/" target="_blank"><button id="demo-btn">Live Demo</button></a> <a href="https://github.com/fabien1313/dayscheduler" target="_blank"><button id="repo-btn">Repository</button></a>
       </div>
 
     
