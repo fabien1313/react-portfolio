@@ -141,7 +141,7 @@ header {
     text-align: center;
 }
 
-#project-container {
+.project-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -151,25 +151,27 @@ header {
     margin-top: 50px;
 }
 
-#dailydose {
+.project-anchor {
     width: 20%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.dailydose {
+.project-photo {
     border-radius: 12px;
     width: 350px;
     height: 330px;
 }
 
-#dailydose-text {
+.project-text {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
-    line-height: 2;
+    line-height: 1.5;
     font-weight: 500;
     margin-top: 10px;
     width: 70%;
     text-align: justify;
+    color: white;
 }
+
 
