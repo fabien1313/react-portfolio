@@ -15,7 +15,7 @@ header {
     min-width: 300px;
     position: fixed;
     left: 0;
-    background-color: #010b75f7;
+    background-color: #010b75cb;
 }
 #avatar {
     margin-top: 50px;
@@ -91,7 +91,7 @@ header {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
     line-height: 2;
-    font-weight: 300;
+    font-weight: 500;
     margin-top: 10px;
     width: 70%;
     text-align: justify;
@@ -117,5 +117,59 @@ header {
     width: 100%;
     min-width: 200px;
     margin-top: 50px;
+}
+/* About */
+
+/* Portfolio */
+#portfolio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 315px;
+    padding: 10px;
+    height: 100vh;
+    background-color: #010b7597;
+}
+
+#portfolio-title {
+    width:100%;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#project-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    min-width: 200px;
+    margin-top: 50px;
+}
+
+#dailydose {
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dailydose {
+    border-radius: 12px;
+    width: 350px;
+    height: 330px;
+}
+
+#dailydose-text {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 500;
+    margin-top: 10px;
+    width: 70%;
+    text-align: justify;
 }
 

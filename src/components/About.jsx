@@ -7,10 +7,10 @@ const About = () => {
       <h2 id="about-title">About Me</h2>
       <div id="about-text-pic-container">
       <p id="about-text">
-      Hi! My name is <span id="name">Fabien</span>. I'm a highly motivated individual who has continued to pursue the software engineering path. I truly enjoy discovering new methods and technologies to create digital products. Through my college experience at Texas State University and coding bootcamp at The University of Texas, Austin, I have been exposed to the power and innovation coding possesses. I have learned to harness the power of coding through consistent execution and trial and error. I am eager to work with other like minded individuals to challenge, share and colaborate on unique ideas. 
+      Hi! My name is <span id="name">Fabien</span>. I am a highly motivated individual and aspiring software engineer. I consider myself proficient in the MERN stack, but I am open to learning new technologies and methods that will make me a more effective developer. I discovered my passion while obtaining my undergrad at Texas State University and continued to expand my skill set by attending The University of Texas, Austin's Full-Stack Web Developer coding bootcamp. I embrace the process of trial and error that comes with software development, and I strive for consistent execution. I am eager to network with other software engineers to learn from, share, and colaborate on great ideas. 
       <br/> 
       <br/>
-      I am currently looking for a software engineering position. Also, I am open to freelance work and would love to network and build connections. Enjoy my portfolio and feel free to contact me below! 
+      I am currently building towards a software engineering position. Additionally, I am open to contract work and other opportunities to contribute to my portfolio. Please browse my portfolio and feel free to contact me with any feedback you may have.
       
       </p>
       <img id= "profile-pic" src={ image } alt="" />
