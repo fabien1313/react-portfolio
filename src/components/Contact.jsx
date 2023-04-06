@@ -22,6 +22,7 @@ export const Contact = () => {
 
     <div id="contact-w-photo-div">
       <h2 id="contact-title">Contact Me</h2>
+      <p id="whisper">Send me a message</p>
       <img id="cartoonme" src={ cartoon } alt="Cartoon of Fabien" />
       <form id="contact-form-container" ref={form} onSubmit={sendEmail}>
         <label>Name</label>
