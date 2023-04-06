@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import cartoon from '../images/cartoonme.png';
 
 export const Contact = () => {
   const form = useRef();
@@ -17,15 +18,23 @@ export const Contact = () => {
   };
 
   return (
-    <form id="contact-form-container" ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+    <div>
+
+    <div id="contact-w-photo-div">
+      <h2 id="contact-title">Contact Me</h2>
+      <img id="cartoonme" src={ cartoon } alt="Cartoon of Fabien" />
+      <form id="contact-form-container" ref={form} onSubmit={sendEmail}>
+        <label>Name</label>
+        <input id="input" type="text" name="user_name" />
+        <label>Email</label>
+        <input id="input"  type="email" name="user_email" />
+        <label>Message</label>
+        <textarea name="message" />
+        <input id="send-btn" type="submit" value="Send" />
+      </form>
+    </div>
+
+    </div>
   );
 };
 

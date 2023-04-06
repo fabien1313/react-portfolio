@@ -8,14 +8,16 @@
 header {
     display:flex;
     flex-direction: column;
+    overflow: auto;
 }
 #header {
-    /* height: 100vh; */
+    height: 100vh;
     width: 15%;
     min-width: 300px;
     position: fixed;
     left: 0;
     background-color: #010b75cb;
+    overflow-y: scroll;
 }
 #avatar {
     margin-top: 50px;
@@ -27,7 +29,7 @@ header {
 }
 #role-title {
     margin-top: 8px;
-    margin-left: 30px;
+    margin-left: 20px;
     color:white;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
@@ -36,9 +38,9 @@ header {
 }
 #name-plate {
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 15px;
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 500;
     font-family: 'Raleway', sans-serif;
 }
@@ -209,8 +211,8 @@ header {
     align-items: center;
     margin-top: 20px;
     margin-left: 315px;
-    padding: 10px;
-    height: 100vh;    
+    padding: 10px; 
+    margin-bottom: 200px;
 }
 #resume-title{
     width:100%;
@@ -251,7 +253,76 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 315px;
-    padding: 10px;   
+    margin-left: 100px;
+    padding: 50px;  
+    margin-top: 30px; 
+    border: 3px solid #010b75f7;
+    background-color: #010b75cb; 
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+#contact-w-photo-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 600px;
+    margin-top: 37px;
+    border: 3px solid #010b75f7;
+    margin-left: 400px;
+    margin-right: 150px;
+    background-color: #010b7597;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+#cartoonme {
+    max-width: 325px;
+    /* min-width: 50%; */
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+#contact-title {
+    width:100%;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#input {
+    border-radius: 12px;
+    padding:3px;
+    border: 2px solid black;
+}
+textarea{
+    border-radius: 12px;
+    padding:10px;
+    border: 2px solid black;
+}
+#send-btn {
+    background-color: #010b75f7;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+    border: 2px solid white;
+}
+#send-btn:hover {
+    text-shadow: 0 0 10px white;
+    transform: translate(0, -2px);
+  }
+label{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 10px;
 }
 
