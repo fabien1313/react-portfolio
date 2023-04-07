@@ -205,6 +205,13 @@ header {
     text-shadow: 0 0 10px white;
     transform: translate(0, -2px);
   }
+figcaption{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
 /* Portfolio */
 
 /* Resume */
