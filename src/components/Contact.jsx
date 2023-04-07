@@ -26,9 +26,9 @@ export const Contact = () => {
       <img id="cartoonme" src={ cartoon } alt="Cartoon of Fabien" />
       <form id="contact-form-container" ref={form} onSubmit={sendEmail}>
         <label>Name</label>
-        <input id="input" type="text" name="user_name" />
+        <input required id="input" type="text" name="user_name" />
         <label>Email</label>
-        <input id="input"  type="email" name="user_email" />
+        <input required id="input"  type="email" name="user_email" />
         <label>Message</label>
         <textarea name="message" />
         <input id="send-btn" type="submit" value="Send" />

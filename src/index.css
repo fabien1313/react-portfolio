@@ -79,6 +79,9 @@ header {
     color: #010b75f7;
     font-weight:500
 }
+.current-page {
+    text-shadow: 0 0 10px white;
+}
 /* Header */
 
 /* About */
@@ -254,12 +257,14 @@ header {
     flex-direction: column;
     align-items: center;
     margin-left: 100px;
-    padding: 50px;  
+    padding: 40px;  
     margin-top: 30px; 
     border: 3px solid #010b75f7;
     background-color: #010b75cb; 
     margin-bottom: 20px;
     border-radius: 12px;
+    width:250px;
+    box-shadow: 5px 10px #06000078;
 }
 #contact-w-photo-div {
     display: flex;
@@ -279,7 +284,8 @@ header {
     max-width: 325px;
     /* min-width: 50%; */
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-right: 25px;
 }
 #contact-title {
     width:100%;
@@ -292,14 +298,15 @@ header {
     margin-bottom: 50px;
 }
 #input {
-    border-radius: 12px;
+    border-radius: 10px;
+    width: 215px;
     padding:3px;
-    border: 2px solid black;
 }
 textarea{
-    border-radius: 12px;
+    border-radius: 8px;
     padding:10px;
-    border: 2px solid black;
+    height: 60px;
+    width:215px;
 }
 #send-btn {
     background-color: #010b75f7;
@@ -324,6 +331,7 @@ label{
     font-weight: 300;
     color: white;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 #whisper {
   position: relative;
