@@ -18,7 +18,7 @@ const Header = () => {
       <nav id="navbar">
           <li className="nav-item"><a className={`anchor-item ${nav === "about-container" ? "current-page" : ""}`} title="About" onClick={() => handleClick("about-container")} href="#about-container">About Me</a></li>
           <li className="nav-item"><a className={`anchor-item ${nav === "portfolio-container" ? "current-page" : ""}`} title="Portfolio" onClick={() => handleClick("portfolio-container")} href="#portfolio-container">Portfolio</a></li>
-          <li className="nav-item"><a className="anchor-item" href="#resume-container">Resume</a></li>
+          <li className="nav-item"><a className={`anchor-item ${nav === "resume-container" ? "current-page" : ""}`} title="Resume" onClick={() => handleClick("resume-container")} href="#resume-container">Resume</a></li>
           <li className="nav-item"><a className="anchor-item" href="#contact-w-photo-div">Contact</a></li>
       </nav>
       <div id="icon-container">
