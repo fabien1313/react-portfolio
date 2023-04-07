@@ -381,4 +381,24 @@ label{
   margin-top: -9px;
   margin-left: 1px;
 }
+/* Contact */
+
+/* Footer */
+#footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 315px;
+    padding: 10px; 
+    margin-bottom: 20px;
+}
+.footer-icons {
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 50px; 
+    margin-left: 50px;
+    width: 75px
+}
 
