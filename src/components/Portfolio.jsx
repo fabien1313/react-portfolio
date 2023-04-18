@@ -5,11 +5,25 @@ import workDay from '../images/workday.png';
 import weatherDash from '../images/weatherdash.png';
 import noteTaker from '../images/notetaker.png';
 import passGen from '../images/passgen.png';
+import project from '../images/project3.png';
 
 const Portfolio = () => {
   return (
     <section id="portfolio-container">
       <h2 id="portfolio-title">Portfolio</h2>
+
+      <div className="project-container">
+        <p className="project-text">The MERN-stack single-page application project aims to solve a real-world challenge by creating a user-focused platform using real-world data. The project will utilize a scalable MongoDB back end, a GraphQL API, and an Express.js and Node.js server for data management, with a React front end for a polished and responsive UI. The application will include authentication with JWT for security, protect sensitive API key information on the server, and follow quality coding standards with a clean repository and a high-quality README. The specific project is a robotic generated art gallery. The project will demonstrate problem-solving skills, solidify understanding of working with multiple servers in a MERN application, and showcase the group's abilities to store project code in GitHub, manage work with a project management tool, and implement feature and bug fixes using the Git branch workflow and pull requests.
+        </p>
+        <figure>
+        <figcaption>Robotic RenAIssance</figcaption>
+        <img className="project-photo" src={ project } alt="Tech Blog Project"/>
+        </figure>
+      </div>
+
+      <div className="btn-div">
+      <a href="https://robotic-renaissance.herokuapp.com/" target="_blank"><button id="demo-btn">Live Demo</button></a> <a href="https://github.com/fabien1313/Robotic_RenAIssance" target="_blank"><button id="repo-btn">Repository</button></a>
+      </div>
   
       <div className="project-container">
         <p className="project-text">As a developer, I understand the importance of staying up-to-date with technical concepts, advancements, and new technologies. That's why I decided to build a CMS-style blog site that serves as a platform for developers to share their ideas and insights with one another.
