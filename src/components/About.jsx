@@ -7,10 +7,13 @@ const About = () => {
       <h2 id="about-title">About Me</h2>
       <div id="about-text-pic-container">
       <p id="about-text">
-      Hi! My name is <span id="name">Fabien</span>. I am a highly motivated individual and aspiring software engineer. I consider myself proficient in the MERN stack, but I am open to learning new technologies and methods that will make me a more effective developer. I discovered my passion while obtaining my undergrad at Texas State University and continued to expand my skill set by attending The University of Texas, Austin's Full-Stack Web Developer coding bootcamp. I embrace the process of trial and error that comes with software development, and I strive for consistent execution. I am eager to network with other software engineers to learn from, share, and colaborate on great ideas. 
-      <br/> 
-      <br/>
-      I am currently building towards a software engineering position. Additionally, I am open to contract work and other opportunities to contribute to my portfolio. Please browse my portfolio and feel free to contact me with any feedback you may have.
+      Hi! My name is <span id="name">Fabien</span>. I'm a data professional currently working as a Data Analyst, with a strong foundation in full-stack web development and a passion for uncovering insights through data. While working on full-stack projects, I discovered the power of data, specifically the way SQL can be used to extract meaning from complex datasets. That discovery sparked a deeper interest in data analysis and led me to pivot my career toward solving business problems with data-drive solutions.
+      <br />
+      As a Data Analyst, I work daily with SQL, Excel, Python, and Power BI to transform raw data into actionable insights that drive smarter decisions. I automate reporting workflows, build inuitive dashboards, and analyze large datasets to uncover trends and root causes. I take pride in breaking down complex problems, delivering clear and impactful analyses, and ensuring data integrity every step of the way. I'm driven by a mindset of continuous improvement. I refine my skills through hands-on problem solving, thoughtful iteration, and a commitment to delivering reliable, impactful results.
+  
+
+
+      
       
       </p>
       <img id= "profile-pic" src={ image } alt="" />

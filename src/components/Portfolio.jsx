@@ -13,7 +13,7 @@ const Portfolio = () => {
       <h2 id="portfolio-title">Portfolio</h2>
 
       <div className="project-container">
-        <p className="project-text">The MERN-stack single-page application project aims to solve a real-world challenge by creating a user-focused platform using real-world data. The project will utilize a scalable MongoDB back end, a GraphQL API, and an Express.js and Node.js server for data management, with a React front end for a polished and responsive UI. The application will include authentication with JWT for security, protect sensitive API key information on the server, and follow quality coding standards with a clean repository and a high-quality README. The specific project is a robotic generated art gallery. The project will demonstrate problem-solving skills, solidify understanding of working with multiple servers in a MERN application, and showcase the group's abilities to store project code in GitHub, manage work with a project management tool, and implement feature and bug fixes using the Git branch workflow and pull requests.
+        <p className="project-text">This data-driven MERN-stack single-page application was built to explore the intersection of artificial intelligence and data visualization by creating an interactive platform for showcasing AI-generated art. Leveraging a scalable MongoDB backend and a GraphQL API, the project captures, structures, and delivers complex metadata about each art piece, enabling users to interact with curated content in real time. An Express.js and Node.js server ensures efficient data flow and secure operations, while the React front end provides a polished, responsive user experience. The platform includes JWT-based authentication to protect user data and interaction history, while sensitive API key data is securely managed on the server side. This project not only highlights the use of structured and unstructured data to drive user engagement, but also reinforces best practices in data security, application scalability, and clean repository management.
         </p>
         <figure>
         <figcaption>Robotic RenAIssance</figcaption>
@@ -22,17 +22,12 @@ const Portfolio = () => {
       </div>
 
       <div className="btn-div">
-      <a href="https://robotic-renaissance.herokuapp.com/" target="_blank"><button id="demo-btn">Live Demo</button></a> <a href="https://github.com/fabien1313/Robotic_RenAIssance" target="_blank"><button id="repo-btn">Repository</button></a>
+      {/* <a href="https://robotic-renaissance.herokuapp.com/" target="_blank"><button id="demo-btn">Live Demo</button></a>  */}
+      <a href="https://github.com/fabien1313/Robotic_RenAIssance" target="_blank"><button id="repo-btn">Repository</button></a>
       </div>
   
       <div className="project-container">
-        <p className="project-text">As a developer, I understand the importance of staying up-to-date with technical concepts, advancements, and new technologies. That's why I decided to build a CMS-style blog site that serves as a platform for developers to share their ideas and insights with one another.
-
-        With this blog site, developers can easily publish their blog posts and engage in discussions by commenting on each other's posts. It's similar to a Wordpress site, but with a focus on technical content and a community of like-minded individuals.
-
-        By creating this blog site, I've not only contributed to the developer community but also gained valuable experience in building a CMS-style website. This project showcases my skills in web development and demonstrates my ability to create a platform that serves a specific niche.
-
-        Overall, my CMS-style blog site is a valuable resource for developers looking to share their knowledge and connect with others in the field.
+        <p className="project-text">This data-driven CMS-style blog platform was built to support the exchange of technical knowledge through structured content creation and user engagement. Designed for developers, the application enables users to publish blog posts, comment on peer content, and interact within a focused, community-drive environment. The system captures and organizes user-generated content and egagement data to better understand behavior patterns, post popularity, and content trends over time. Structured around CRUD operations, the application features a well-structured back end that stores blog and comment data with relational integrity, ensuring efficient data retrieval and manipulation. Each post and interaction is logged, forming a rich dataset that could support future analytics on user activity, trending technologies, or contributor impact. The front end provides an intuitive interface for content management, while secure authentication protects user identities and ensures reliable access control. Beyond replicating features similar to WordPress, this project demonstrates my ability to build data-centric applications that scale, support meaningful user interaction, and maintain data integrity. It reflects my growing focus on how data can inform design, influence community dynamics, and power digital platforms built with purpose.
         </p>
         <figure>
         <figcaption>The Daily Dose</figcaption>
@@ -41,18 +36,13 @@ const Portfolio = () => {
       </div>
 
       <div className="btn-div">
-      <a href="https://thedailydose.herokuapp.com/" target="_blank"><button id="demo-btn">Live Demo</button></a> <a href="https://github.com/fabien1313/TheDailyDose" target="_blank"><button id="repo-btn">Repository</button></a>
+      {/* <a href="https://thedailydose.herokuapp.com/" target="_blank"><button id="demo-btn">Live Demo</button></a>  */}
+      <a href="https://github.com/fabien1313/TheDailyDose" target="_blank"><button id="repo-btn">Repository</button></a>
       </div>
 
       <div className="project-container">
         <p className="project-text">
-        I recently built an API for a social network web application that allows users to share their thoughts, react to friends' thoughts, and create a friend list. To create this API, I utilized Express.js for routing and a MongoDB database with the Mongoose ODM.
-
-        Building this API allowed me to gain valuable experience in structuring and organizing data for a social network application. By utilizing MongoDB, I was able to handle large amounts of data efficiently while also accommodating unstructured data. The use of Mongoose ODM provided an additional layer of organization and simplified the database interactions.
-
-        To format timestamps, I opted to use the native JavaScript Date object. This allowed me to easily track when posts were created and updated, giving users a better understanding of when they were last active.
-
-        Overall, the API I built for this social network web application provides a foundation for a full-stack application that can be used to connect users and facilitate sharing of thoughts and ideas. It showcases my proficiency in using technologies commonly used in social networking platforms, such as Express.js and MongoDB.
+        This project involved developing a robust, data-centric API for a social networking application that enables users to post thoughts, react to others' content, and manage a dynamic list of friend connections. Designed with scalability and effiency in mind, the API was built using Express.js for routing and MongoDB paired with Mongoose ODM for structured data modeling and database interaction. The focus of the project was on designing flexible schemas capable of handling complex, unstructured social interaction data at scale. By leveraging MongoDB's document-based storage, I was able to manage high-volume datasets while maintaining performance and adaptability. Mongoose provided schema validation and logical data structuring, making relationships between users, posts, and reactions easy to maintain and query. To track user activity and content timelines, I implemented timestamp formatting using native JavaScript Date objects, enabling clear visibility into user engagement and content freshness.
         </p>
         <figure>
           <figcaption>Social Dose</figcaption>
@@ -61,7 +51,8 @@ const Portfolio = () => {
       </div>
 
       <div className="btn-div">
-      <a href="https://drive.google.com/file/d/1_F4EDyZYJi2q_Bfcg8IwpA-nV3ETN_YH/view" target="_blank"><button id="demo-btn">Live Demo</button></a> <a href="https://github.com/fabien1313/SocialDose-API" target="_blank"><button id="repo-btn">Repository</button></a>
+      {/* <a href="https://drive.google.com/file/d/1_F4EDyZYJi2q_Bfcg8IwpA-nV3ETN_YH/view" target="_blank"><button id="demo-btn">Live Demo</button></a>  */}
+      <a href="https://github.com/fabien1313/SocialDose-API" target="_blank"><button id="repo-btn">Repository</button></a>
       </div>
 
       <div className="project-container">
@@ -109,7 +100,8 @@ const Portfolio = () => {
       </div>
 
       <div className="btn-div">
-      <a href="https://fabien1313-noteapp.herokuapp.com/" target="_blank"><button id="demo-btn">Live Demo</button></a> <a href="https://github.com/fabien1313/Note_taking_app" target="_blank"><button id="repo-btn">Repository</button></a>
+      {/* <a href="https://fabien1313-noteapp.herokuapp.com/" target="_blank"><button id="demo-btn">Live Demo</button></a>  */}
+      <a href="https://github.com/fabien1313/Note_taking_app" target="_blank"><button id="repo-btn">Repository</button></a>
       </div>
 
       <div className="project-container">

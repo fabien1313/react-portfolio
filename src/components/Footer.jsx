@@ -8,7 +8,7 @@ const Footer = () => {
     <section>
 
       <div id="footer-container">
-        <a href="https://twitter.com/CodeFabien" target="_blank"><img className="footer-icons" src={ twitter } alt="GitHub" /></a>
+        <a href="https://twitter.com/" target="_blank"><img className="footer-icons" src={ twitter } alt="GitHub" /></a>
         <a href="https://github.com/fabien1313" target="_blank"><img className="footer-icons" src={ github } alt="LinkedIn" /></a>
         <a href="https://www.linkedin.com/in/fabien-moreno/" target="_blank"><img className="footer-icons" src={ linkedin } alt="Twitter" /></a>
       </div>

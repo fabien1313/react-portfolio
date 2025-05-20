@@ -21,7 +21,7 @@ const Header = () => {
     <header id="header">
       <img id="avatar" src={image} alt="profile picture" />
       <h1 id="name-plate">Fabien Moreno</h1>
-      <h2 id="role-title">Full-Stack Web Developer</h2>
+      <h2 id="role-title">Data Analyst</h2>
       <nav id="navbar">
         <li className="nav-item">
           <a
@@ -73,7 +73,7 @@ const Header = () => {
         </li>
       </nav>
       <div id="icon-container">
-        <a href="https://twitter.com/CodeFabien" target="_blank">
+        <a href="https://twitter.com/" target="_blank">
           <img id="tIcon" src={tIcon} alt="twitter icon" />
         </a>
         <a href="https://github.com/fabien1313" target="_blank">
